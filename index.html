@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>simpleChat by Robin Bailleux</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/simpleChat.css">
+        <script src="resources/ckeditor/ckeditor.js"></script>
+        <script src="resources/js/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <div id="simpleChat">
+            <div class="simpleChat-dialog">
+            
+            </div>
+            <div class="simpleChat-sender">
+	            <form>
+		            <textarea name="simpleChat-message" id="simpleChat-message">
+		                simpleChat message
+		            </textarea>
+		            <script>
+		                CKEDITOR.replace('simpleChat-message');
+		            </script>
+		        </form>
+            </div>
+        </div>
+        
+    </body>
+</html>
